@@ -1,3 +1,8 @@
+import parmegianaImg from "@/assets/parmegiana.jpg";
+import escondidinhoImg from "@/assets/escondidinho.jpg";
+import lasanhaImg from "@/assets/lasanha.jpg";
+import panquecaImg from "@/assets/panqueca.jpg";
+
 export interface Product {
   id: string;
   name: string;
@@ -47,7 +52,7 @@ export const products: Product[] = [
     type: "Carne",
     weight: "450g",
     price: 35.0,
-    image: "/src/assets/parmegiana.jpg",
+    image: parmegianaImg,
     description: "Empanada crocante com molho de tomate e queijo derretido.",
   },
   {
@@ -57,7 +62,7 @@ export const products: Product[] = [
     type: "Carne",
     weight: "750g",
     price: 55.0,
-    image: "/src/assets/parmegiana.jpg",
+    image: parmegianaImg,
     description: "Empanada crocante com molho de tomate e queijo derretido.",
   },
   {
@@ -67,7 +72,7 @@ export const products: Product[] = [
     type: "Frango",
     weight: "450g",
     price: 32.0,
-    image: "/src/assets/parmegiana.jpg",
+    image: parmegianaImg,
     description: "Empanada crocante com molho de tomate e queijo derretido.",
   },
   {
@@ -77,7 +82,7 @@ export const products: Product[] = [
     type: "Frango",
     weight: "750g",
     price: 50.0,
-    image: "/src/assets/parmegiana.jpg",
+    image: parmegianaImg,
     description: "Empanada crocante com molho de tomate e queijo derretido.",
   },
 
@@ -89,7 +94,7 @@ export const products: Product[] = [
     type: "Carne",
     weight: "500g",
     price: 28.0,
-    image: "/src/assets/escondidinho.jpg",
+    image: escondidinhoImg,
     description:
       "Purê de mandioca cremoso com recheio bem temperado e gratinado.",
   },
@@ -100,7 +105,7 @@ export const products: Product[] = [
     type: "Carne",
     weight: "1kg",
     price: 48.0,
-    image: "/src/assets/escondidinho.jpg",
+    image: escondidinhoImg,
     description:
       "Purê de mandioca cremoso com recheio bem temperado e gratinado.",
   },
@@ -111,7 +116,7 @@ export const products: Product[] = [
     type: "Camarão",
     weight: "500g",
     price: 38.0,
-    image: "/src/assets/escondidinho.jpg",
+    image: escondidinhoImg,
     description: "Purê de mandioca cremoso com camarão e gratinado no forno.",
   },
   {
@@ -121,7 +126,7 @@ export const products: Product[] = [
     type: "Camarão",
     weight: "1kg",
     price: 68.0,
-    image: "/src/assets/escondidinho.jpg",
+    image: escondidinhoImg,
     description: "Purê de mandioca cremoso com camarão e gratinado no forno.",
   },
 
@@ -133,7 +138,7 @@ export const products: Product[] = [
     type: "Carne",
     weight: "1kg",
     price: 45.0,
-    image: "/src/assets/lasanha.jpg",
+    image: lasanhaImg,
     description: "Camadas generosas com molho especial e bastante queijo.",
   },
   {
@@ -143,7 +148,7 @@ export const products: Product[] = [
     type: "Frango",
     weight: "1kg",
     price: 42.0,
-    image: "/src/assets/lasanha.jpg",
+    image: lasanhaImg,
     description: "Camadas generosas com molho especial e bastante queijo.",
   },
 
@@ -155,7 +160,7 @@ export const products: Product[] = [
     type: "Carne",
     weight: "6 uni",
     price: 30.0,
-    image: "/src/assets/panqueca.jpg",
+    image: panquecaImg,
     description:
       "Panquecas recheadas, cobertas com molho e finalizadas no forno.",
   },
@@ -166,7 +171,7 @@ export const products: Product[] = [
     type: "Frango",
     weight: "6 uni",
     price: 28.0,
-    image: "/src/assets/panqueca.jpg",
+    image: panquecaImg,
     description:
       "Panquecas recheadas, cobertas com molho e finalizadas no forno.",
   },
