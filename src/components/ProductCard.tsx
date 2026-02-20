@@ -25,7 +25,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-40 object-cover rounded-md mb-3"
+          className="w-full h-40 lg:h-48 object-cover rounded-md mb-3"
         />
         <div className="flex justify-between items-start mb-2">
           <div className="flex-1">

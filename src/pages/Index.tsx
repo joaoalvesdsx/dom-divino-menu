@@ -10,7 +10,7 @@ const Index = () => {
       <div className="min-h-screen bg-background">
         <Header />
 
-        <main className="max-w-4xl mx-auto px-4 py-8">
+        <main className="max-w-7xl lg:max-w-none px-4 sm:px-6 lg:px-12 xl:px-20 mx-auto lg:mx-0 py-8">
           {categories.map((category) => (
             <CategorySection key={category.id} category={category} />
           ))}
@@ -19,7 +19,7 @@ const Index = () => {
         <Cart />
 
         <footer className="bg-card border-t border-border py-6 px-4 mt-8">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <p className="font-sans text-lg text-primary mb-1">
               Dom Divino Congelados
             </p>
